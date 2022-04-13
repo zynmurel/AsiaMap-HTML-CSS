@@ -1,18 +1,15 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.flag{
-    width: 40px;
-}
 .nav .list{
     position: fixed;
     left: 1%;
     margin-top: 5%;
     background-color: rgba(7, 77, 28, 0.863);
     width: 18%;
-    border: 5px solid black;
+    border: .4vw solid black;
     color: rgb(255, 234, 49);
-    border-radius: 10px;
+    border-radius: 1vw;
     overflow-x: hidden;
     overflow-y: auto;
     height: 85%;
@@ -20,11 +17,11 @@ body{
 .group .top h2{
     text-align: center;
     background-color: rgb(18, 37, 12);
-    margin: 10px;
-    padding: 10px 0px;
+    margin: 1vw;
+    padding: .5vw 0px;
     border-radius: 10px;
     width: 18%;
-    border: 5px solid black;
+    border: .4vw solid black;
     color: rgb(255, 234, 49);
     background-color: rgba(7, 77, 28, 0.863);
     text-shadow: 2px 2px rgb(117, 110, 1);
@@ -40,16 +37,16 @@ body{
     font-size: 1.3vw;
 }
 .group .names{
+    margin-top: 5vw;
     position: fixed;
     right: 1%;
     z-index: 1;
     text-align: center;
     background-color: rgb(18, 37, 12);
-    margin-top: 75px;
-    padding: 10px 0px;
+    padding: 1vw 0px;
     border-radius: 10px;
     width: 18%;
-    border: 5px solid black;
+    border: .4vw solid black;
     color: rgb(255, 234, 49);
     background-color: rgba(7, 77, 28, 0.863);
     text-shadow: 2px 2px rgb(117, 110, 1);
@@ -61,7 +58,7 @@ body{
 }
 .nav img{
     float: left;
-    height: 20px;
+    height: 2vw;
     margin-right: 10px;
 }
 .nav h3{
@@ -71,10 +68,10 @@ body{
     text-align: center;
     background-color: rgb(18, 37, 12);
     margin: 10px;
-    padding: 10px 0px;
+    padding: .5vw 0px;
     border-radius: 10px;
     width: 18%;
-    border: 5px solid black;
+    border: .4vw solid black;
     color: rgb(255, 234, 49);
     background-color: rgba(7, 77, 28, 0.863);
     text-shadow: 2px 2px rgb(117, 110, 1);
@@ -111,7 +108,7 @@ body{
     color: rgb(255, 234, 49);
     background-color: rgba(7, 77, 28, 0.863);
     border-radius: 10px;
-    border: 5px solid black;
+    border: .4vw solid black;
     text-shadow: 5px 5px black;
     z-index: 6;
     height: auto;
@@ -128,8 +125,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 57%;
     left: 27%;
     filter:contrast(1.2);
@@ -150,6 +147,9 @@ body{
     border-radius: 5px;
     font-size: .4em;
 }
+.flag{
+    width: 5vw;
+}
 .afghanistan:hover div{
     visibility:visible;
 }
@@ -164,8 +164,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 45.5%;
     left: 15.5%;
     filter:contrast(1.2);
@@ -200,8 +200,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 46.5%;
     left: 17.5%;
     filter:contrast(1.2);
@@ -236,8 +236,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 59.4%;
     left: 14%;
     filter:contrast(1.2);
@@ -272,8 +272,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 68%;
     left: 46%;
     filter:contrast(1.2);
@@ -309,8 +309,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 64.1%;
     left: 46.5%;
     filter:contrast(1.2);
@@ -344,8 +344,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 82%;
     left: 69.8%;
     filter:contrast(1.2);
@@ -379,8 +379,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 76.5%;
     left: 60%;
     filter:contrast(1.2);
@@ -415,8 +415,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 57%;
     left: 52%;
     filter:contrast(1.2);
@@ -450,8 +450,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 45.1%;
     left: 6%;
     filter:contrast(1.2);
@@ -486,8 +486,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 43%;
     left: 15.1%;
     filter:contrast(1.2);
@@ -523,8 +523,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 68%;
     left: 36%;
     filter:contrast(1.2);
@@ -560,8 +560,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 88%;
     left: 68%;
     filter:contrast(1.2);
@@ -596,8 +596,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 50%;
     left: 12%;
     filter:contrast(1.2);
@@ -633,8 +633,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 55%;
     left: 20%;
     filter:contrast(1.2);
@@ -670,8 +670,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 49.5%;
     left: 4.5%;
     filter:contrast(1.2);
@@ -707,8 +707,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 42%;
     left: 78%;
     filter:contrast(1.2);
@@ -743,8 +743,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 50%;
     left: 6%;
     filter:contrast(1.2);
@@ -780,8 +780,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 43%;
     left: 32%;
     filter:contrast(1.2);
@@ -816,8 +816,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 56%;
     left: 13%;
     filter:contrast(1.2);
@@ -852,8 +852,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 51%;
     left: 35%;
     filter:contrast(1.2);
@@ -888,8 +888,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 70%;
     left: 57%;
     filter:contrast(1.2);
@@ -925,8 +925,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 47%;
     left: 7%;
     filter:contrast(1.2);
@@ -962,8 +962,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 85%;
     left: 57%;
     filter:contrast(1.2);
@@ -998,8 +998,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 84%;
     left: 29%;
     filter:contrast(1.2);
@@ -1034,8 +1034,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 45%;
     left: 53%;
     filter:contrast(1.2);
@@ -1070,8 +1070,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 69%;
     left: 51.5%;
     filter:contrast(1.2);
@@ -1107,8 +1107,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 63.5%;
     left: 41%;
     filter:contrast(1.2);
@@ -1143,8 +1143,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 44%;
     left: 69.8%;
     filter:contrast(1.2);
@@ -1179,8 +1179,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 67%;
     left: 16%;
     filter:contrast(1.2);
@@ -1216,8 +1216,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 63%;
     left: 28%;
     filter:contrast(1.2);
@@ -1252,8 +1252,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 60.1%;
     left: 14.4%;
     filter:contrast(1.2);
@@ -1289,8 +1289,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 60%;
     left: 9%;
     filter:contrast(1.2);
@@ -1326,8 +1326,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 87.2%;
     left: 59.8%;
     filter:contrast(1.2);
@@ -1362,8 +1362,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 46%;
     left: 72%;
     filter:contrast(1.2);
@@ -1398,8 +1398,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 82%;
     left: 36.5%;
     filter:contrast(1.2);
@@ -1434,8 +1434,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 48.5%;
     left: 5%;
     filter:contrast(1.2);
@@ -1471,8 +1471,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 48%;
     left: 9%;
     filter:contrast(1.2);
@@ -1508,8 +1508,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 54%;
     left: 33%;
     filter:contrast(1.2);
@@ -1545,8 +1545,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 74%;
     left: 56%;
     filter:contrast(1.2);
@@ -1582,8 +1582,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 72.5%;
     left: 77%;
     filter:contrast(1.2);
@@ -1618,8 +1618,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 93%;
     left: 80.7%;
     filter:contrast(1.2);
@@ -1654,8 +1654,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 43%;
     left: 10%;
     filter:contrast(1.2);
@@ -1690,8 +1690,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 51%;
     left: 25%;
     filter:contrast(1.2);
@@ -1727,8 +1727,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 63%;
     left: 16%;
     filter:contrast(1.2);
@@ -1764,8 +1764,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 50%;
     left: 28%;
     filter:contrast(1.2);
@@ -1800,8 +1800,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 76.5%;
     left: 62.8%;
     filter:contrast(1.2);
@@ -1836,8 +1836,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 67.5%;
     left: 8%;
     filter:contrast(1.2);
@@ -1872,8 +1872,8 @@ body{
     position: absolute;
     background-image: url(/images/loc.png);
     background-size: cover;
-    width: 16px;
-    height: 24px;
+    width: 1.2vw;
+    height: 1.7vw;
     top: 34%;
     left: 43%;
     filter:contrast(1.2);
