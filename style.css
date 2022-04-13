@@ -1,0 +1,1904 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flag{
+    width: 40px;
+}
+.nav .list{
+    position: fixed;
+    left: 1%;
+    margin-top: 5%;
+    background-color: rgba(7, 77, 28, 0.863);
+    width: 18%;
+    border: 5px solid black;
+    color: rgb(255, 234, 49);
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 85%;
+}
+.group .top h2{
+    text-align: center;
+    background-color: rgb(18, 37, 12);
+    margin: 10px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    width: 18%;
+    border: 5px solid black;
+    color: rgb(255, 234, 49);
+    background-color: rgba(7, 77, 28, 0.863);
+    text-shadow: 2px 2px rgb(117, 110, 1);
+    position: fixed;
+    right: 1%;
+    margin: 0px;
+    top: 3%;
+    z-index: 1;
+}
+.group{
+    cursor: pointer;
+    position: relative;
+    font-size: 1.3vw;
+}
+.group .names{
+    position: fixed;
+    right: 1%;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(18, 37, 12);
+    margin-top: 75px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    width: 18%;
+    border: 5px solid black;
+    color: rgb(255, 234, 49);
+    background-color: rgba(7, 77, 28, 0.863);
+    text-shadow: 2px 2px rgb(117, 110, 1);
+    visibility: hidden;
+
+}
+.group:hover .names{
+    visibility: visible;
+}
+.nav img{
+    float: left;
+    height: 20px;
+    margin-right: 10px;
+}
+.nav h3{
+    height: 20px;
+}
+.nav h2{
+    text-align: center;
+    background-color: rgb(18, 37, 12);
+    margin: 10px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    width: 18%;
+    border: 5px solid black;
+    color: rgb(255, 234, 49);
+    background-color: rgba(7, 77, 28, 0.863);
+    text-shadow: 2px 2px rgb(117, 110, 1);
+    position: fixed;
+    left: 1%;
+    margin: 0px;
+    top: 3%;
+}
+.nav li{
+    width: 100%;
+    display: inline;
+    cursor: pointer;
+    color: rgb(255, 234, 49);
+    text-decoration: none;
+}
+.nav{
+    font-size: 1.1vw;
+}
+.list a{
+    text-decoration: none;
+}
+.list ul{
+    padding-left: 8px;
+}
+.header h1{
+    width: 50%;
+    position: fixed;
+    top: 2%;
+    margin: 0;
+    left: 25%;
+    z-index: 1;
+    text-align: center;
+    font-size: 3vw;
+    color: rgb(255, 234, 49);
+    background-color: rgba(7, 77, 28, 0.863);
+    border-radius: 10px;
+    border: 5px solid black;
+    text-shadow: 5px 5px black;
+    z-index: 6;
+    height: auto;
+    padding: 5px 0px 10px 0px;
+}
+.map{
+    object-fit: cover;
+    margin: 20px 0% 20px 20% ;
+    position: relative;
+    position: relative;
+}
+.afghanistan{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 57%;
+    left: 27%;
+    filter:contrast(1.2);
+    z-index: 4;
+}
+.afghanistan div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.afghanistan:hover div{
+    visibility:visible;
+}
+.afghanistan:hover{
+    filter:contrast(1.5);
+}
+.afghanistan h1{
+    margin: 0;
+}
+.armenia{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 45.5%;
+    left: 15.5%;
+    filter:contrast(1.2);
+    z-index: 2;
+}
+.armenia div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.armenia:hover div{
+    visibility:visible;
+}
+.armenia:hover{
+    filter:contrast(1.5);
+}
+.armenia h1{
+    margin: 0;
+}
+.Azerbaijan{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 46.5%;
+    left: 17.5%;
+    filter:contrast(1.2);
+    z-index: 2;
+}
+.Azerbaijan div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.Azerbaijan:hover div{
+    visibility:visible;
+}
+.Azerbaijan:hover{
+    filter:contrast(1.5);
+}
+.Azerbaijan h1{
+    margin: 0;
+}
+.bahrain{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 59.4%;
+    left: 14%;
+    filter:contrast(1.2);
+    z-index: 4;
+}
+.bahrain div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.bahrain:hover div{
+    visibility:visible;
+}
+.bahrain:hover{
+    filter:contrast(1.5);
+}
+.bahrain h1{
+    margin: 0;
+}
+.bangladesh{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 68%;
+    left: 46%;
+    filter:contrast(1.2);
+    z-index: 2;
+    
+}
+.bangladesh div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.bangladesh:hover div{
+    visibility:visible;
+}
+.bangladesh:hover{
+    filter:contrast(1.5);
+}
+.bangladesh h1{
+    margin: 0;
+}
+.bhutan{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 64.1%;
+    left: 46.5%;
+    filter:contrast(1.2);
+}
+.bhutan div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.bhutan:hover div{
+    visibility:visible;
+}
+.bhutan:hover{
+    filter:contrast(1.5);
+}
+.bhutan h1{
+    margin: 0;
+}
+.brunei{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 82%;
+    left: 69.8%;
+    filter:contrast(1.2);
+}
+.brunei div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.brunei:hover div{
+    visibility:visible;
+}
+.brunei:hover{
+    filter:contrast(1.5);
+}
+.brunei h1{
+    margin: 0;
+}
+.cambodia{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 76.5%;
+    left: 60%;
+    filter:contrast(1.2);
+    z-index: 4;
+}
+.cambodia div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.cambodia:hover div{
+    visibility:visible;
+}
+.cambodia:hover{
+    filter:contrast(1.5);
+}
+.cambodia h1{
+    margin: 0;
+}
+.china{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 57%;
+    left: 52%;
+    filter:contrast(1.2);
+}
+.china div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.china:hover div{
+    visibility:visible;
+}
+.china:hover{
+    filter:contrast(1.5);
+}
+.china h1{
+    margin: 0;
+}
+.cyprus{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 45.1%;
+    left: 6%;
+    filter:contrast(1.2);
+    z-index: 2;
+}
+.cyprus div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.cyprus:hover div{
+    visibility:visible;
+}
+.cyprus:hover{
+    filter:contrast(1.5);
+}
+.cyprus h1{
+    margin: 0;
+}
+.georgia{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 43%;
+    left: 15.1%;
+    filter:contrast(1.2);
+    z-index: 1;
+}
+.georgia div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.georgia:hover div{
+    visibility:visible;
+}
+.georgia:hover{
+    filter:contrast(1.5);
+}
+.georgia h1{
+    margin: 0;
+}
+
+.india{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 68%;
+    left: 36%;
+    filter:contrast(1.2);
+    z-index: 2;
+}
+.india div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.india:hover div{
+    visibility:visible;
+}
+.india:hover{
+    filter:contrast(1.5);
+}
+.india h1{
+    margin: 0;
+}
+
+.indonesia{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 88%;
+    left: 68%;
+    filter:contrast(1.2);
+}
+.indonesia div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.indonesia:hover div{
+    visibility:visible;
+}
+.indonesia:hover{
+    filter:contrast(1.5);
+}
+.indonesia h1{
+    margin: 0;
+}
+
+.iran{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 50%;
+    left: 12%;
+    filter:contrast(1.2);
+    z-index: 5;
+}
+.iran div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.iran:hover div{
+    visibility:visible;
+}
+.iran:hover{
+    filter:contrast(1.5);
+}
+.iran h1{
+    margin: 0;
+}
+
+.iraq{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 55%;
+    left: 20%;
+    filter:contrast(1.2);
+    z-index: 3;
+}
+.iraq div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.iraq:hover div{
+    visibility:visible;
+}
+.iraq:hover{
+    filter:contrast(1.5);
+}
+.iraq h1{
+    margin: 0;
+}
+
+.israel{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 49.5%;
+    left: 4.5%;
+    filter:contrast(1.2);
+    z-index: 5;
+}
+.israel div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.israel:hover div{
+    visibility:visible;
+}
+.israel:hover{
+    filter:contrast(1.5);
+}
+.israel h1{
+    margin: 0;
+}
+
+.japan{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 42%;
+    left: 78%;
+    filter:contrast(1.2);
+}
+.japan div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.japan:hover div{
+    visibility:visible;
+}
+.japan:hover{
+    filter:contrast(1.5);
+}
+.japan h1{
+    margin: 0;
+}
+
+.jordan{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 50%;
+    left: 6%;
+    filter:contrast(1.2);
+    z-index: 5;
+}
+.jordan div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.jordan:hover div{
+    visibility:visible;
+}
+.jordan:hover{
+    filter:contrast(1.5);
+}
+.jordan h1{
+    margin: 0;
+}
+
+.kazakhstan{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 43%;
+    left: 32%;
+    filter:contrast(1.2);
+}
+.kazakhstan div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.kazakhstan:hover div{
+    visibility:visible;
+}
+.kazakhstan:hover{
+    filter:contrast(1.5);
+}
+.kazakhstan h1{
+    margin: 0;
+}
+
+.kuwait{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 56%;
+    left: 13%;
+    filter:contrast(1.2);
+}
+.kuwait div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.kuwait:hover div{
+    visibility:visible;
+}
+.kuwait:hover{
+    filter:contrast(1.5);
+}
+.kuwait h1{
+    margin: 0;
+}
+
+.kyrgyzstan{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 51%;
+    left: 35%;
+    filter:contrast(1.2);
+}
+.kyrgyzstan div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.kyrgyzstan:hover div{
+    visibility:visible;
+}
+.kyrgyzstan:hover{
+    filter:contrast(1.5);
+}
+.kyrgyzstan h1{
+    margin: 0;
+}
+
+.laos{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 70%;
+    left: 57%;
+    filter:contrast(1.2);
+    z-index: 3;
+}
+.laos div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.laos:hover div{
+    visibility:visible;
+}
+.laos:hover{
+    filter:contrast(1.5);
+}
+.laos h1{
+    margin: 0;
+}
+
+.lebanon{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 47%;
+    left: 7%;
+    filter:contrast(1.2);
+    z-index: 3;
+}
+.lebanon div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.lebanon:hover div{
+    visibility:visible;
+}
+.lebanon:hover{
+    filter:contrast(1.5);
+}
+.lebanon h1{
+    margin: 0;
+}
+
+.malaysia{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 85%;
+    left: 57%;
+    filter:contrast(1.2);
+}
+.malaysia div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.malaysia:hover div{
+    visibility:visible;
+}
+.malaysia:hover{
+    filter:contrast(1.5);
+}
+.malaysia h1{
+    margin: 0;
+}
+
+.maldives{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 84%;
+    left: 29%;
+    filter:contrast(1.2);
+}
+.maldives div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.maldives:hover div{
+    visibility:visible;
+}
+.maldives:hover{
+    filter:contrast(1.5);
+}
+.maldives h1{
+    margin: 0;
+}
+
+.monggolia{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 45%;
+    left: 53%;
+    filter:contrast(1.2);
+}
+.monggolia div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.monggolia:hover div{
+    visibility:visible;
+}
+.monggolia:hover{
+    filter:contrast(1.5);
+}
+.monggolia h1{
+    margin: 0;
+}
+
+.myanmar{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 69%;
+    left: 51.5%;
+    filter:contrast(1.2);
+    z-index: 2;
+}
+.myanmar div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.myanmar:hover div{
+    visibility:visible;
+}
+.myanmar:hover{
+    filter:contrast(1.5);
+}
+.myanmar h1{
+    margin: 0;
+}
+
+.nepal{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 63.5%;
+    left: 41%;
+    filter:contrast(1.2);
+}
+.nepal div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.nepal:hover div{
+    visibility:visible;
+}
+.nepal:hover{
+    filter:contrast(1.5);
+}
+.nepal h1{
+    margin: 0;
+}
+
+.nkorea{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 44%;
+    left: 69.8%;
+    filter:contrast(1.2);
+}
+.nkorea div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.nkorea:hover div{
+    visibility:visible;
+}
+.nkorea:hover{
+    filter:contrast(1.5);
+}
+.nkorea h1{
+    margin: 0;
+}
+
+.oman{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 67%;
+    left: 16%;
+    filter:contrast(1.2);
+    z-index: 5;
+}
+.oman div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.oman:hover div{
+    visibility:visible;
+}
+.oman:hover{
+    filter:contrast(1.5);
+}
+.oman h1{
+    margin: 0;
+}
+
+.pakistan{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 63%;
+    left: 28%;
+    filter:contrast(1.2);
+}
+.pakistan div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.pakistan:hover div{
+    visibility:visible;
+}
+.pakistan:hover{
+    filter:contrast(1.5);
+}
+.pakistan h1{
+    margin: 0;
+}
+
+.qatar{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 60.1%;
+    left: 14.4%;
+    filter:contrast(1.2);
+    z-index: 4;
+}
+.qatar div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.qatar:hover div{
+    visibility:visible;
+}
+.qatar:hover{
+    filter:contrast(1.5);
+}
+.qatar h1{
+    margin: 0;
+}
+
+.saudiarabia{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 60%;
+    left: 9%;
+    filter:contrast(1.2);
+    z-index: 5;
+}
+.saudiarabia div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.saudiarabia:hover div{
+    visibility:visible;
+}
+.saudiarabia:hover{
+    filter:contrast(1.5);
+}
+.saudiarabia h1{
+    margin: 0;
+}
+
+.singapore{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 87.2%;
+    left: 59.8%;
+    filter:contrast(1.2);
+}
+.singapore div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.singapore:hover div{
+    visibility:visible;
+}
+.singapore:hover{
+    filter:contrast(1.5);
+}
+.singapore h1{
+    margin: 0;
+}
+
+.skorea{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 46%;
+    left: 72%;
+    filter:contrast(1.2);
+}
+.skorea div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.skorea:hover div{
+    visibility:visible;
+}
+.skorea:hover{
+    filter:contrast(1.5);
+}
+.skorea h1{
+    margin: 0;
+}
+
+.srilanka{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 82%;
+    left: 36.5%;
+    filter:contrast(1.2);
+}
+.srilanka div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.srilanka:hover div{
+    visibility:visible;
+}
+.srilanka:hover{
+    filter:contrast(1.5);
+}
+.srilanka h1{
+    margin: 0;
+}
+
+.stateofpalestine{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 48.5%;
+    left: 5%;
+    filter:contrast(1.2);
+    z-index: 4;
+}
+.stateofpalestine div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.stateofpalestine:hover div{
+    visibility:visible;
+}
+.stateofpalestine:hover{
+    filter:contrast(1.5);
+}
+.stateofpalestine h1{
+    margin: 0;
+}
+
+.siria{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 48%;
+    left: 9%;
+    filter:contrast(1.2);
+    z-index: 3;
+}
+.siria div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.siria:hover div{
+    visibility:visible;
+}
+.siria:hover{
+    filter:contrast(1.5);
+}
+.siria h1{
+    margin: 0;
+}
+
+.Tajikistan{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 54%;
+    left: 33%;
+    filter:contrast(1.2);
+    z-index: 2;
+}
+.Tajikistan div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.Tajikistan:hover div{
+    visibility:visible;
+}
+.Tajikistan:hover{
+    filter:contrast(1.5);
+}
+.Tajikistan h1{
+    margin: 0;
+}
+
+.thailand{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 74%;
+    left: 56%;
+    filter:contrast(1.2);
+    z-index: 3;
+}
+.thailand div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.thailand:hover div{
+    visibility:visible;
+}
+.thailand:hover{
+    filter:contrast(1.5);
+}
+.thailand h1{
+    margin: 0;
+}
+
+.philippines{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 72.5%;
+    left: 77%;
+    filter:contrast(1.2);
+}
+.philippines div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.philippines:hover div{
+    visibility:visible;
+}
+.philippines:hover{
+    filter:contrast(1.5);
+}
+.philippines h1{
+    margin: 0;
+}
+
+.timorleste{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 93%;
+    left: 80.7%;
+    filter:contrast(1.2);
+}
+.timorleste div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.timorleste:hover div{
+    visibility:visible;
+}
+.timorleste:hover{
+    filter:contrast(1.5);
+}
+.timorleste h1{
+    margin: 0;
+}
+
+.turkey{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 43%;
+    left: 10%;
+    filter:contrast(1.2);
+}
+.turkey div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.turkey:hover div{
+    visibility:visible;
+}
+.turkey:hover{
+    filter:contrast(1.5);
+}
+.turkey h1{
+    margin: 0;
+}
+
+.Turkmenistan{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 51%;
+    left: 25%;
+    filter:contrast(1.2);
+    z-index: 2;
+}
+.Turkmenistan div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.Turkmenistan:hover div{
+    visibility:visible;
+}
+.Turkmenistan:hover{
+    filter:contrast(1.5);
+}
+.Turkmenistan h1{
+    margin: 0;
+}
+
+.UnitedArabEmirates{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 63%;
+    left: 16%;
+    filter:contrast(1.2);
+    z-index: 4;
+}
+.UnitedArabEmirates div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.UnitedArabEmirates:hover div{
+    visibility:visible;
+}
+.UnitedArabEmirates:hover{
+    filter:contrast(1.5);
+}
+.UnitedArabEmirates h1{
+    margin: 0;
+}
+
+.Uzbekistan{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 50%;
+    left: 28%;
+    filter:contrast(1.2);
+}
+.Uzbekistan div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.Uzbekistan:hover div{
+    visibility:visible;
+}
+.Uzbekistan:hover{
+    filter:contrast(1.5);
+}
+.Uzbekistan h1{
+    margin: 0;
+}
+
+.Vietnam{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 76.5%;
+    left: 62.8%;
+    filter:contrast(1.2);
+}
+.Vietnam div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.Vietnam:hover div{
+    visibility:visible;
+}
+.Vietnam:hover{
+    filter:contrast(1.5);
+}
+.Vietnam h1{
+    margin: 0;
+}
+
+.Yemen{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 67.5%;
+    left: 8%;
+    filter:contrast(1.2);
+}
+.Yemen div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.Yemen:hover div{
+    visibility:visible;
+}
+.Yemen:hover{
+    filter:contrast(1.5);
+}
+.Yemen h1{
+    margin: 0;
+}
+
+.Russia{
+    position: relative;
+    position: absolute;
+    background-image: url(/images/loc.png);
+    background-size: cover;
+    width: 16px;
+    height: 24px;
+    top: 34%;
+    left: 43%;
+    filter:contrast(1.2);
+}
+.Russia div{
+    position: absolute;
+    width: 100px;
+    bottom: 110%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+    visibility: hidden;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: .4em;
+}
+.Russia:hover div{
+    visibility:visible;
+}
+.Russia:hover{
+    filter:contrast(1.5);
+}
+.Russia h1{
+    margin: 0;
+}

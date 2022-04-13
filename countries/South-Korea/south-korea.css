@@ -1,0 +1,33 @@
+body{
+    background-color:skyblue;
+    padding: 0px 350px;
+    font-size: 1.6em;
+}
+.all{
+    background-color: rgb(0, 0, 0, .8);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+.description h1{
+    float: left;
+    margin-bottom: 0px;
+}
+img{
+    padding-left: 20px;
+    padding-top: 40px;
+    height: 50px;
+    width: 80px;
+}
+.back img{
+    position: absolute;
+    left: 40px;
+    top: 5%;
+    padding: 10px;
+}
+.back img:hover{
+    height: 60px;
+    width: 90px;
+    padding: 5px;
+    filter: contrast(2);
+}
