@@ -1,6 +1,9 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.flag{
+    width: 2vw;
+}
 .nav .list{
     position: fixed;
     left: 1%;
@@ -59,7 +62,7 @@ body{
 .nav img{
     float: left;
     height: 2vw;
-    margin-right: 10px;
+    margin-right: .5vw;
 }
 .nav h3{
     height: 20px;
@@ -109,7 +112,7 @@ body{
     background-color: rgba(7, 77, 28, 0.863);
     border-radius: 10px;
     border: .4vw solid black;
-    text-shadow: 5px 5px black;
+    text-shadow: 2px 2px black;
     z-index: 6;
     height: auto;
     padding: 5px 0px 10px 0px;
