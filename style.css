@@ -1,21 +1,19 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.flag{
-    width: 2vw;
-}
 .nav .list{
     position: fixed;
     left: 1%;
     margin-top: 5%;
+    top: 3%;
     background-color: rgba(7, 77, 28, 0.863);
-    width: 18%;
+    width: 17.9vw;
     border: .4vw solid black;
     color: rgb(255, 234, 49);
     border-radius: 1vw;
     overflow-x: hidden;
     overflow-y: auto;
-    height: 85%;
+    height: 80vh;
 }
 .group .top h2{
     text-align: center;
@@ -54,6 +52,7 @@ body{
     background-color: rgba(7, 77, 28, 0.863);
     text-shadow: 2px 2px rgb(117, 110, 1);
     visibility: hidden;
+    top: 3%;
 
 }
 .group:hover .names{
@@ -65,12 +64,12 @@ body{
     margin-right: .5vw;
 }
 .nav h3{
-    height: 20px;
+    height: 2vw;
 }
 .nav h2{
     text-align: center;
     background-color: rgb(18, 37, 12);
-    margin: 10px;
+    margin: 2vw;
     padding: .5vw 0px;
     border-radius: 10px;
     width: 18%;
@@ -123,6 +122,12 @@ body{
     position: relative;
     position: relative;
 }
+.flag{
+    width: 5vw;
+}
+.map h1{
+    font-size: 1vw;
+}
 .afghanistan{
     position: relative;
     position: absolute;
@@ -149,9 +154,6 @@ body{
     color: rgb(0, 0, 0);
     border-radius: 5px;
     font-size: .4em;
-}
-.flag{
-    width: 5vw;
 }
 .afghanistan:hover div{
     visibility:visible;
